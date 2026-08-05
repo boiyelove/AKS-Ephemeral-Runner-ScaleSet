@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "AKS-Ephemeral-Runner-ScaleSet",
+  "rank": 23,
+  "action": "plan_aks_ephemeral_runner_scaleset",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
